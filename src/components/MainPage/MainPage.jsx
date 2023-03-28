@@ -58,7 +58,6 @@ const MainPage = () => {
             </header>
             <main className="main">
                 <div className="main__hero hero">
-                    <div className="hero__container _container">
                         <div className="hero__content">
                             <div className="hero__text">
                                 <div className="hero__text_title">Photo of the Day by guangxi liu</div>
@@ -67,10 +66,11 @@ const MainPage = () => {
                                     <a href='/'>Explore All</a>
                                 </div>
                             </div>
-                        </div>
-                        <div className="hero__image">
+                            <div className="hero__image">
                             <img src={heroImage} alt="" />
                         </div>
+                        </div>
+                        
                         <div className="hero__search search">
                             <div className="search__content">
                                 <div className="search__input">
@@ -101,7 +101,6 @@ const MainPage = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
                 <div className="main__photos photos">
                     <div className="photos__container _container">
@@ -119,8 +118,10 @@ const MainPage = () => {
                                         </div>
                                         <div className="photos__buttons">
                                             <BookmarkButton />
-                                            <LikeButton />
-                                            <CommentButton />
+                                            <div className='photos__buttons_reaction'>
+                                                <LikeButton />
+                                                <CommentButton />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -136,8 +137,10 @@ const MainPage = () => {
                                         </div>
                                         <div className="photos__buttons">
                                             <BookmarkButton />
-                                            <LikeButton />
-                                            <CommentButton />
+                                            <div className='photos__buttons_reaction'>
+                                                <LikeButton />
+                                                <CommentButton />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -172,8 +175,10 @@ const MainPage = () => {
                                         </div>
                                         <div className="photos__buttons">
                                             <BookmarkButton />
-                                            <LikeButton />
-                                            <CommentButton />
+                                            <div className='photos__buttons_reaction'>
+                                                <LikeButton />
+                                                <CommentButton />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -208,8 +213,10 @@ const MainPage = () => {
                                         </div>
                                         <div className="photos__buttons">
                                             <BookmarkButton />
-                                            <LikeButton />
-                                            <CommentButton />
+                                            <div className='photos__buttons_reaction'>
+                                                <LikeButton />
+                                                <CommentButton />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -227,8 +234,10 @@ const MainPage = () => {
                                         </div>
                                         <div className="photos__buttons">
                                             <BookmarkButton />
-                                            <LikeButton />
-                                            <CommentButton />
+                                            <div className='photos__buttons_reaction'>
+                                                <LikeButton />
+                                                <CommentButton />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -244,8 +253,10 @@ const MainPage = () => {
                                         </div>
                                         <div className="photos__buttons">
                                             <BookmarkButton />
-                                            <LikeButton />
-                                            <CommentButton />
+                                            <div className='photos__buttons_reaction'>
+                                                <LikeButton />
+                                                <CommentButton />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -263,8 +274,10 @@ const MainPage = () => {
                                         </div>
                                         <div className="photos__buttons">
                                             <BookmarkButton />
-                                            <LikeButton />
-                                            <CommentButton />
+                                            <div className='photos__buttons_reaction'>
+                                                <LikeButton />
+                                                <CommentButton />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -280,8 +293,10 @@ const MainPage = () => {
                                         </div>
                                         <div className="photos__buttons">
                                             <BookmarkButton />
-                                            <LikeButton />
-                                            <CommentButton />
+                                            <div className='photos__buttons_reaction'>
+                                                <LikeButton />
+                                                <CommentButton />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -299,8 +314,10 @@ const MainPage = () => {
                                         </div>
                                         <div className="photos__buttons">
                                             <BookmarkButton />
-                                            <LikeButton />
-                                            <CommentButton />
+                                            <div className='photos__buttons_reaction'>
+                                                <LikeButton />
+                                                <CommentButton />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -316,8 +333,10 @@ const MainPage = () => {
                                         </div>
                                         <div className="photos__buttons">
                                             <BookmarkButton />
-                                            <LikeButton />
-                                            <CommentButton />
+                                            <div className='photos__buttons_reaction'>
+                                                <LikeButton />
+                                                <CommentButton />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

@@ -19,12 +19,11 @@ const LikeButton = () => {
     return (
         <div className="photos__buttons_like">
             <button
-                style={{ width: '20px', height:'20px'}}
                 className='like-btn'
                 onClick={handleClick}
                 >
-                {liked ? (<img src={iconHeartFilled} alt="Like" style={{ width: '20px', height:'20px'}}/>)
-                : (<img src={iconHeart} alt="Like" style={{ width: '20px', height:'20px'}}/>)}
+                {liked ? (<img src={iconHeartFilled} alt="Like"/>)
+                : (<img src={iconHeart} alt="Like"/>)}
             </button>
             <span>{likedCount}</span>
         </div>
